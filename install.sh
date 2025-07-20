@@ -113,7 +113,7 @@ DNS = 8.8.8.8, 1.1.1.1
 [Peer]
 PublicKey = $SERVER_PUB
 Endpoint = ${SERVER_PUBLIC_IP}:${WG_PORT}
-AllowedIPs = $WG_SUBNET
+AllowedIPs = 0.0.0.0/0
 PersistentKeepalive = 25
 EOF
 
